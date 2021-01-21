@@ -1,0 +1,297 @@
+/*Estilos generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --rojo: #C30E2E;
+    --fondo: #F4F5F9;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.centent__txt {
+    text-align: center;
+}
+
+section {
+    height: auto;
+    width: 100%;
+    height: 700px;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.parrafo {
+    font-size: 16px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+
+/*Estilos del menu de navegacion*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+.content__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    max-width: 1290px;
+}
+
+#brand {
+    height: 100px;
+    width: 100px;
+}
+
+.nav__desktop a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+#toggle__menu {
+    display: none;
+}
+
+
+/*Estilos del banner*/
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/hero6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h1 {
+    margin: .5rem 0;
+}
+
+#btn__info {
+    height: 2rem;
+    width: 8rem;
+    padding: .1 .1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: var(--rojo);
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/*Contendio slogan*/
+
+.content__filosofia {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.content__fil {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1290px;
+}
+
+.content__slogan {
+    height: 170px;
+    width: 230px;
+    margin: 0 .3rem;
+    padding: 1rem .5rem .5rem .5rem;
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+}
+
+.title_sl {
+    margin-bottom: 1rem;
+}
+
+.color1 {
+    background: white;
+    border: 3px solid #60b054;
+}
+
+.sl1 {
+    color: #60b054;
+}
+
+.color2 {
+    background: white;
+    border: 3px solid #4d94bd;
+}
+
+.sl2 {
+    color: #4d94bd;
+}
+
+.color3 {
+    background: white;
+    border: 3px solid #62b0bb;
+}
+
+.sl3 {
+    color: #62b0bb;
+}
+
+.color4 {
+    background: white;
+    border: 3px solid #ffb700bb;
+}
+
+.sl4 {
+    color: #ffb700bb;
+}
+
+.pc {
+    color: black;
+}
+
+
+/*nosotros y mg abreviado de mini galeria*/
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.margen-bottom {
+    margin-bottom: 3rem;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    max-width: 1290px;
+}
+
+.content__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.mg {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    box-shadow: 8px 14px 7px rgba(0, 0, 0, 0.3);
+    left: -100px;
+}
+
+.mg1 {
+    /*barco*/
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    left: -160px;
+    top: -200px;
+    box-shadow: 8px 14px 7px rgba(0, 0, 0, 0.3);
+}
+
+.mg2 {
+    /*Monos*/
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    left: -220px;
+    top: -170px;
+    box-shadow: 8px 14px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+/*Apartado de texto*/
+
+.content__txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.margen {
+    margin: 0 .3rem 2rem .3rem;
+}
+
+
+/*Servicios*/
+
+#servicios {
+    background: var(--fondo);
+}
+
+.content__services {
+    background: red;
+    height: 50%;
+    width: 90%;
+    max-width: 1290px;
+}
+
+.info-services {
+    height: 100%;
+    width: 35%;
+    background: yellow;
+}
